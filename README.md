@@ -1,6 +1,4 @@
-# History-Smart-Search-Engine
-# Knowledge Graph for Smart Search Engine
-
+# ChronoLang
 ### Graduation Project — Data Science & Artificial Intelligence
 
 **Authors:** Mohammad ALADDASI & Shahd Abuhijleh
@@ -20,7 +18,7 @@ The project bridges **data science**, **NLP**, and **knowledge representation** 
 
 ## Research Question
 
-> **How can a history-based Knowledge Graph improve contextual understanding and intelligent information retrieval compared to traditional keyword-based search engines?**
+> **How can a history-based Knowledge Graph provide an interactive and intelligent way to represent historical data compared to traditional text-based representations?**
 
 ---
 
@@ -49,11 +47,11 @@ The project bridges **data science**, **NLP**, and **knowledge representation** 
 | Component       | Tools                            |
 | --------------- | -------------------------------- |
 | Programming     | Python, Jupyter                  |
-| NLP             | spaCy, Transformers              |
+| NLP             | omartificial, Transformers       |
 | Knowledge Graph | Neo4j, RDFLib                    |
-| Vector Store    | Weaviate                         |
+| Vector Store    | Chroma DB                        |
 | Data Pipeline   | Pandas, BeautifulSoup, Scrapy    |
-| LLM Models      | Aya Model, qwen, omartificial    |
+| LLM Models      | Aya Model, qwen                  |
 | Evaluation      | Precision/Recall, SPARQL queries |
 | Visualization   | NetworkX, Plotly                 |
 
@@ -67,41 +65,28 @@ gantt
     dateFormat  YYYY-MM-DD
     axisFormat  %b %d
 
-    section Step 1
-    Understand Assignment            :done, s1, 2025-10-13, 2025-10-19
-
-    section Step 2
-    Develop Topic & Keywords          :active, s2, 2025-10-20, 2025-10-26
-
-    section Step 3
-    Search Sources & Read Materials   :s3, 2025-10-27, 2025-11-06
-
-    section Step 4
+    section Phase 1: Research & Theoretical Work
+    Understand Assignment               :done, s1, 2025-10-13, 2025-10-19
+    Develop Topic & Keywords             :done, s2, 2025-10-20, 2025-10-26
+    Search & Read Sources                :active, s3, 2025-10-27, 2025-11-06
     Evaluate Sources & Draft Bibliography :s4, 2025-11-07, 2025-11-10
+    Revise Search Strategy & Notes       :s5, 2025-11-11, 2025-11-17
+    Create Research Question / Thesis    :s6, 2025-11-18, 2025-11-21
+    Write First Draft                    :s7, 2025-11-22, 2025-12-09
+    Check for Plagiarism & Citation      :s8, 2025-12-10, 2025-12-16
+    Consult Writing Center               :s9, 2025-12-17, 2025-12-20
+    Revise Draft                         :s10, 2025-12-21, 2026-01-07
+    Proofread & Finalize                 :s11, 2026-01-08, 2026-01-11
+    Submit Theoretical Work              :s12, 2026-01-12, 2026-01-15
 
-    section Step 5
-    Refine Search Strategy & Continue Notes :s5, 2025-11-11, 2025-11-17
+    section Phase 2: Implementation & Application
+    Data Collection & Preprocessing      :s13, 2026-01-15, 2026-02-10
+    NLP Entity & Relation Extraction     :s14, 2026-02-11, 2026-03-01
+    Knowledge Graph Modeling & Building  :s15, 2026-03-02, 2026-03-25
+    Search Interface Development         :s16, 2026-03-26, 2026-04-10
+    System Testing & Evaluation          :s17, 2026-04-11, 2026-05-01
+    Final Report & Presentation          :s18, 2026-05-02, 2026-05-15
 
-    section Step 6
-    Create Research Question/Thesis   :s6, 2025-11-18, 2025-11-21
-
-    section Step 7
-    Write First Draft                 :s7, 2025-11-22, 2025-12-09
-
-    section Step 8
-    Check for Plagiarism & Citation   :s8, 2025-12-10, 2025-12-16
-
-    section Step 9
-    Writing Center Consultation       :s9, 2025-12-17, 2025-12-20
-
-    section Step 10
-    Revise Draft                      :s10, 2025-12-21, 2026-01-07
-
-    section Step 11
-    Proofread & Final Check           :s11, 2026-01-08, 2026-01-11
-
-    section Step 12
-    Final Submission                  :s12, 2026-01-12, 2026-01-15
 ```
 
 ---
