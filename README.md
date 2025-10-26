@@ -10,9 +10,9 @@
 
 ## Project Overview
 
-This project aims to develop a **history-based Knowledge Graph (KG)** that can power a **frontend** capable of reasoning, linking, and contextualizing historical information. The system will extract structured knowledge from diverse sources (texts, timelines, archives) to create a semantic network of **events, people, places, and time periods**.
+This project aims to develop a **history-based Knowledge Graph (KG)** that can power a **frontend** capable of reasoning, linking, and contextualising historical information. The system will extract structured knowledge from diverse sources (texts, timelines, archives) to create a semantic network of **events, people, places, and time periods**.
 
-The project bridges **data science**, **NLP**, and **knowledge representation** — providing an intelligent exploration tool for historical research, education, and cultural preservation.
+The project bridges **data science**, **NLP**, **LLM**, and **knowledge representation** — providing an intelligent exploration tool for historical research, education, and cultural preservation.
 
 ---
 
@@ -53,7 +53,7 @@ The project bridges **data science**, **NLP**, and **knowledge representation** 
 | Data Pipeline   | Pandas, BeautifulSoup, Scrapy    |
 | LLM Models      | Aya Model, qwen                  |
 | Evaluation      | Precision/Recall, SPARQL queries |
-| Visualization   | NetworkX, Plotly                 |
+| Visualisation   | Cytoscape.js, Vis-network (Vis.js), Sigma.js, D3.js             |
 
 ---
 
@@ -74,9 +74,9 @@ gantt
     Create Research Question / Thesis    :s6, 2025-11-18, 2025-11-21
     Write First Draft                    :s7, 2025-11-22, 2025-12-09
     Check for Plagiarism & Citation      :s8, 2025-12-10, 2025-12-16
-    Consult Writing Center               :s9, 2025-12-17, 2025-12-20
+    Consult Writing Centre               :s9, 2025-12-17, 2025-12-20
     Revise Draft                         :s10, 2025-12-21, 2026-01-07
-    Proofread & Finalize                 :s11, 2026-01-08, 2026-01-11
+    Proofread & Finalise                 :s11, 2026-01-08, 2026-01-11
     Submit Theoretical Work              :s12, 2026-01-12, 2026-01-15
 
     section Phase 2: Implementation & Application
