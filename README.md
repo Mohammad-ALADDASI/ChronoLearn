@@ -2,8 +2,11 @@
 ### Graduation Project — Data Science & Artificial Intelligence
 
 **Authors:** Mohammad ALADDASI & Shahd Abuhijleh
+
 **Supervisor:** *Dr Omar Qawasmeh*
+ 
 **Institution:** *Princess Summaya University for Technology*
+
 **Academic Year:** 2025–2026
 
 ---
@@ -44,16 +47,17 @@ The project bridges **data science**, **NLP**, **LLM**, and **knowledge represen
 
 ## Technologies
 
-| Component       | Tools                            |
-| --------------- | -------------------------------- |
-| Programming     | Python, Jupyter                  |
-| NLP             | omartificial, Transformers       |
-| Knowledge Graph | Neo4j, RDFLib                    |
-| Vector Store    | Chroma DB                        |
-| Data Pipeline   | Pandas, BeautifulSoup, Scrapy    |
-| LLM Models      | Aya Model, qwen                  |
-| Evaluation      | Precision/Recall, SPARQL queries |
-| Visualisation   | Cytoscape.js, Vis-network (Vis.js), Sigma.js, D3.js             |
+| **Component**       | **Tools / Technologies**                                     |
+|---------------------|--------------------------------------------------------------|
+| **Programming**     | Python - Jupyter Notebook                                    |
+| **NLP**             | Omartificial                                                 |
+| **Knowledge Graph** | Neo4j, RDFLib                                                |
+| **Vector Store**    | ChromaDB                                                     |
+| **Data Pipeline**   | Pandas, BeautifulSoup, Scrapy, Selenium                      |
+| **LLM Models**      | Aya Model, Qwen, OSS2b *(if feasible)*                       |
+| **Evaluation**      | Precision / Recall, SPARQL Queries, Cypher                   |
+| **Visualization**   | Cytoscape.js, Vis Network (Vis.js), Sigma.js, D3.js         |
+
 
 ---
 
@@ -101,8 +105,7 @@ gantt
 ---
 
 ## Citation & Resources
-
-If you use this project or its ideas, please cite appropriately.
+* If you use this project or its ideas, please cite appropriately.
 This repository follows the [APA 7th Edition](https://apastyle.apa.org/) citation format.
 ---
 
