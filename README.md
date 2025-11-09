@@ -72,8 +72,8 @@ gantt
     section Phase 1: Research & Theoretical Work
     Understand Assignment               :done, s1, 2025-10-13, 2025-10-19
     Develop Topic & Keywords             :done, s2, 2025-10-20, 2025-10-26
-    Search & Read Sources                :active, s3, 2025-10-27, 2025-11-06
-    Evaluate Sources & Draft Bibliography :s4, 2025-11-07, 2025-11-10
+    Search & Read Sources                :done, s3, 2025-10-27, 2025-11-06
+    Evaluate Sources & Draft Bibliography :active, s4, 2025-11-07, 2025-11-10
     Revise Search Strategy & Notes       :s5, 2025-11-11, 2025-11-17
     Create Research Question / Thesis    :s6, 2025-11-18, 2025-11-21
     Write First Draft                    :s7, 2025-11-22, 2025-12-09
