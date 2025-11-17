@@ -73,23 +73,24 @@ gantt
     Understand Assignment               :done, s1, 2025-10-13, 2025-10-19
     Develop Topic & Keywords             :done, s2, 2025-10-20, 2025-10-26
     Search & Read Sources                :done, s3, 2025-10-27, 2025-11-06
-    Evaluate Sources & Draft Bibliography :active, s4, 2025-11-07, 2025-11-10
-    Revise Search Strategy & Notes       :s5, 2025-11-11, 2025-11-17
+    Evaluate Sources & Draft Bibliography :done, s4, 2025-11-07, 2025-11-10
+    Revise Search Strategy & Notes       :done, s5, 2025-11-11, 2025-11-17
     Create Research Question / Thesis    :s6, 2025-11-18, 2025-11-21
-    Write First Draft                    :s7, 2025-11-22, 2025-12-09
-    Check for Plagiarism & Citation      :s8, 2025-12-10, 2025-12-16
-    Consult Writing Centre               :s9, 2025-12-17, 2025-12-20
-    Revise Draft                         :s10, 2025-12-21, 2026-01-07
-    Proofread & Finalise                 :s11, 2026-01-08, 2026-01-11
-    Submit Theoretical Work              :s12, 2026-01-12, 2026-01-15
+    Write First Draft                    :active,s7, 2025-11-01, 2025-11-30
+    Check for Plagiarism & Citation      :s8, 2025-11-21, 2025-12-16
+    Write Second Draft                   :s9, 2025-11-01, 2025-11-30
+    Consult Writing Centre               :s10, 2025-12-17, 2025-12-20
+    Revise Second Draft                  :s11, 2025-12-21, 2026-01-07
+    Proofread & Finalise                 :s12, 2026-01-08, 2026-01-11
+    Submit Theoretical Work              :s13, 2026-01-12, 2026-01-15
 
     section Phase 2: Implementation & Application
-    Data Collection & Preprocessing      :s13, 2026-01-15, 2026-02-10
-    NLP Entity & Relation Extraction     :s14, 2026-02-11, 2026-03-01
-    Knowledge Graph Modeling & Building  :s15, 2026-03-02, 2026-03-25
-    Search Interface Development         :s16, 2026-03-26, 2026-04-10
-    System Testing & Evaluation          :s17, 2026-04-11, 2026-05-01
-    Final Report & Presentation          :s18, 2026-05-02, 2026-05-15
+    Data Collection & Preprocessing      :s14, 2026-01-15, 2026-02-10
+    NLP Entity & Relation Extraction     :s15, 2026-02-11, 2026-03-01
+    Knowledge Graph Modeling & Building  :s16, 2026-03-02, 2026-03-25
+    Search Interface Development         :s17, 2026-03-26, 2026-04-10
+    System Testing & Evaluation          :s18, 2026-04-11, 2026-05-01
+    Final Report & Presentation          :s19, 2026-05-02, 2026-05-15
 
 ```
 
