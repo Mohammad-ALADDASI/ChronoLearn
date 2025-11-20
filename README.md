@@ -59,42 +59,46 @@ The project bridges **data science**, **NLP**, **LLM**, and **knowledge represen
 | **Visualization**   | Cytoscape.js, Vis Network (Vis.js), Sigma.js, D3.js         |
 
 
----
-
-## Project Timeline (Gantt Chart)
-
-```mermaid
 gantt
-    title Project Timeline: History Knowledge Graph
+    title Project Timeline: History Knowledge Graph (Revised)
     dateFormat  YYYY-MM-DD
     axisFormat  %b %d
 
-    section Phase 1: Research & Theoretical Work
-    Understand Assignment               :done, s1, 2025-10-13, 2025-10-19
-    Develop Topic & Keywords             :done, s2, 2025-10-20, 2025-10-26
-    Search & Read Sources                :done, s3, 2025-10-27, 2025-11-06
-    Evaluate Sources & Draft Bibliography :done, s4, 2025-11-07, 2025-11-10
-    Revise Search Strategy & Notes       :done, s5, 2025-11-11, 2025-11-17
-    Create Research Question / Thesis    :s6, 2025-11-18, 2025-11-21
-    Write First Draft                    :active,s7, 2025-11-01, 2025-11-30
-    Check for Plagiarism & Citation      :s8, 2025-11-21, 2025-12-16
-    Write Second Draft                   :s9, 2025-12-01, 2025-12-25
-    Consult Writing Centre               :s10, 2025-12-17, 2025-12-20
-    Revise Second Draft                  :s11, 2025-12-21, 2026-01-07
-    Proofread & Finalise                 :s12, 2026-01-08, 2026-01-11
-    Submit Theoretical Work              :s13, 2026-01-12, 2026-01-15
+    %% -------------------------
+    %% PHASE 1 — GP1 DOCUMENTATION
+    %% -------------------------
+    section GP1 Documentation (Research + Writing)
+    Understand Assignment                     :done, gp1a, 2025-10-13, 2025-10-19
+    Develop Topic & Keywords                  :done, gp1b, 2025-10-20, 2025-10-26
+    Search & Read Sources                     :done, gp1c, 2025-10-27, 2025-11-06
+    Evaluate Sources & Draft Bibliography     :done, gp1d, 2025-11-07, 2025-11-10
+    Revise Search Strategy & Notes            :done, gp1e, 2025-11-11, 2025-11-17
+    Create Research Question / Thesis         :active, gp1f, 2025-11-18, 2025-11-21
 
-    section Phase 2: Implementation & Application
-    Data Collection & Preprocessing      :s14, 2026-01-15, 2026-02-10
-    NLP Entity & Relation Extraction     :s15, 2026-02-11, 2026-03-01
-    Knowledge Graph Modeling & Building  :s16, 2026-03-02, 2026-03-25
-    Search Interface Development         :s17, 2026-03-26, 2026-04-10
-    System Testing & Evaluation          :s18, 2026-04-11, 2026-05-01
-    Final Report & Presentation          :s19, 2026-05-02, 2026-05-15
+    %% Writing overlaps heavily with development tasks (correct GP1 behaviour)
+    First Draft (Theory Chapters)             :active, gp1g, 2025-11-01, 2025-12-30
+    Second Draft (Methodology + Design)       :gp1h, 2025-12-15, 2026-01-20
+    Proofread & Finalise GP1 Report           :gp1i, 2026-01-21, 2026-01-30
+    Submit GP1 Deliverables                   :milestone, gp1m, 2026-01-31, 0d
 
-```
+    %% -------------------------
+    %% PHASE 2 — GP2 PRACTICAL WORK (starts before GP1 ends)
+    %% -------------------------
+    section GP2 Practical System Development
 
----
+    %% Starts during GP1 (concurrent)
+    Data Collection & Preprocessing           :active, gp2a, 2025-12-20, 2026-02-10
+    NLP Entity & Relation Extraction          :gp2b, 2026-01-15, 2026-03-01
+
+    %% KG modelling overlaps documentation of methodology (concurrency added)
+    Knowledge Graph Modeling & Building       :gp2c, 2026-02-10, 2026-03-25
+
+    Search Interface Development              :gp2d, 2026-03-05, 2026-04-10
+    System Testing & Evaluation               :gp2e, 2026-04-05, 2026-05-01
+
+    %% Documentation continues during all these tasks (true GP1/GP2 flow)
+    Final Documentation + Presentation Prep   :gp2f, 2026-04-20, 2026-05-15
+    Submit Final Deliverables (GP2)           :milestone, gp2m, 2026-05-15, 0d
 
 ## Deliverables
 
