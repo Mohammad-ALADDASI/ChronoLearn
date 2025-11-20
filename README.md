@@ -77,28 +77,20 @@ gantt
     Revise Search Strategy & Notes            :done, gp1e, 2025-11-11, 2025-11-17
     Create Research Question / Thesis         :active, gp1f, 2025-11-18, 2025-11-21
 
-    %% Writing overlaps heavily with development tasks (correct GP1 behaviour)
-    First Draft (Theory Chapters)             :active, gp1g, 2025-11-01, 2025-12-30
-    Second Draft (Methodology + Design)       :gp1h, 2025-12-15, 2026-01-20
-    Proofread & Finalise GP1 Report           :gp1i, 2026-01-21, 2026-01-30
-    Submit GP1 Deliverables                   :milestone, gp1m, 2026-01-31, 0d
+    First Draft                               :active, gp1g, 2025-11-01, 2025-11-30
+    Second Draft                              :gp1h, 2025-11-26, 2026-01-05
+    Proofread & Finalise GP1 Report           :gp1i, 2026-01-06, 2026-01-14
+    Submit GP1 Deliverables                   :milestone, gp1m, 2026-01-15, 0d
 
     %% -------------------------
     %% PHASE 2 — GP2 PRACTICAL WORK (starts before GP1 ends)
     %% -------------------------
     section GP2 Practical System Development
-
-    %% Starts during GP1 (concurrent)
-    Data Collection & Preprocessing           :active, gp2a, 2025-12-20, 2026-02-10
-    NLP Entity & Relation Extraction          :gp2b, 2026-01-15, 2026-03-01
-
-    %% KG modelling overlaps documentation of methodology (concurrency added)
-    Knowledge Graph Modeling & Building       :gp2c, 2026-02-10, 2026-03-25
-
-    Search Interface Development              :gp2d, 2026-03-05, 2026-04-10
+    Data Collection & Preprocessing           :active, gp2a, 2025-12-01, 2026-01-20
+    NLP Entity & Relation Extraction          :gp2b, 2026-01-05, 2026-02-15
+    Knowledge Graph Modeling & Building       :gp2c, 2026-02-01, 2026-03-25
+    Product Interface Development              :gp2d, 2026-03-05, 2026-04-10
     System Testing & Evaluation               :gp2e, 2026-04-05, 2026-05-01
-
-    %% Documentation continues during all these tasks (true GP1/GP2 flow)
     Final Documentation + Presentation Prep   :gp2f, 2026-04-20, 2026-05-15
     Submit Final Deliverables (GP2)           :milestone, gp2m, 2026-05-15, 0d
 ```
@@ -118,4 +110,4 @@ This repository follows the [APA 7th Edition](https://apastyle.apa.org/) citatio
 
 ## Acknowledgments
 
-Special thanks to the **Data Science & AI Department** especially **Dr Omar Qawasmeh** for guidance and resources.
+Special thanks to the **Data Science & AI Department**; especially, **Dr Omar Qawasmeh** for guidance and resources.
