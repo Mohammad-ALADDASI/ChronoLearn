@@ -101,7 +101,7 @@ gantt
     %% Documentation continues during all these tasks (true GP1/GP2 flow)
     Final Documentation + Presentation Prep   :gp2f, 2026-04-20, 2026-05-15
     Submit Final Deliverables (GP2)           :milestone, gp2m, 2026-05-15, 0d
-
+```
 ## Deliverables
 
 * Research Paper (APA7 Format)
