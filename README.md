@@ -58,7 +58,9 @@ The project bridges **data science**, **NLP**, **LLM**, and **knowledge represen
 | **Evaluation**      | Precision / Recall, SPARQL Queries, Cypher                   |
 | **Visualization**   | Cytoscape.js, Vis Network (Vis.js), Sigma.js, D3.js         |
 
+## Project Timeline (Gantt Chart)
 
+```mermaid
 gantt
     title Project Timeline: History Knowledge Graph (Revised)
     dateFormat  YYYY-MM-DD
