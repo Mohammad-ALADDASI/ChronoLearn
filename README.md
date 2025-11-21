@@ -56,7 +56,9 @@ The project bridges **data science**, **NLP**, **LLM**, and **knowledge represen
 | **Data Pipeline**   | Pandas, BeautifulSoup, Scrapy, Selenium                      |
 | **LLM Models**      | Aya Model, Qwen, OSS2b *(if feasible)*                       |
 | **Evaluation**      | Precision / Recall, SPARQL Queries, Cypher                   |
-| **Visualization**   | Cytoscape.js, Vis Network (Vis.js), Sigma.js, D3.js         |
+| **Visualisation**   | Cytoscape.js, Vis Network (Vis.js), Sigma.js, D3.js          |
+| **UI**              | html, tsx, js                                                |
+| **Backend**         | Flask Python API                                             |
 
 ## Project Timeline (Gantt Chart)
 
