@@ -1,0 +1,19 @@
+# Sensitive keys
+.env
+
+# Local uploads
+uploads/
+triples/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db

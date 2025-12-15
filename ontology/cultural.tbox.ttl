@@ -1,0 +1,51 @@
+@prefix : <http://example.org/ontology/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+### -------------------------------
+### CLASS: CulturalEntity
+### -------------------------------
+:CulturalEntity a owl:Class ;
+    rdfs:label "Cultural Entity"@en ;
+    rdfs:label "كيان ثقافي"@ar ;
+    rdfs:subClassOf dbo:CulturalHeritageObject .
+
+### -------------------------------
+### PROPERTIES ALLOWED IN CULTURAL THEME
+### -------------------------------
+
+# Geographic or ethnic origin
+:originatedIn a owl:ObjectProperty ;
+    rdfs:label "originated in"@en ;
+    rdfs:label "نشأت في"@ar ;
+    rdfs:domain :CulturalEntity ;
+    rdfs:range dbo:Place .
+
+# Who practices it
+:practicedBy a owl:ObjectProperty ;
+    rdfs:label "practiced by"@en ;
+    rdfs:label "تمارس من قبل"@ar ;
+    rdfs:domain :CulturalEntity ;
+    rdfs:range dbo:Agent .
+
+# Cultural belonging / affiliation
+:belongsToCulture a owl:ObjectProperty ;
+    rdfs:label "belongs to culture"@en ;
+    rdfs:label "ينتمي إلى ثقافة"@ar ;
+    rdfs:domain :CulturalEntity ;
+    rdfs:range dbo:EthnicGroup .
+
+# Related traditions
+:relatedTradition a owl:ObjectProperty ;
+    rdfs:label "related tradition"@en ;
+    rdfs:label "مرتبط بتقليد"@ar ;
+    rdfs:domain :CulturalEntity ;
+    rdfs:range :CulturalEntity .
+
+# Symbolic meaning
+:hasSymbolism a owl:DatatypeProperty ;
+    rdfs:label "has symbolism"@en ;
+    rdfs:label "له دلالة"@ar ;
+    rdfs:domain :CulturalEntity ;
+    rdfs:range rdfs:Literal .
