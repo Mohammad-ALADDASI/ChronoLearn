@@ -77,10 +77,10 @@ gantt
     Search & Read Sources                     :done, gp1c, 2025-10-27, 2025-11-06
     Evaluate Sources & Draft Bibliography     :done, gp1d, 2025-11-07, 2025-11-10
     Revise Search Strategy & Notes            :done, gp1e, 2025-11-11, 2025-11-17
-    Create Research Question / Thesis         :active, gp1f, 2025-11-18, 2025-11-21
+    Create Research Question / Thesis         :done, gp1f, 2025-11-18, 2025-11-21
 
-    First Draft                               :active, gp1g, 2025-11-01, 2025-11-30
-    Second Draft                              :gp1h, 2025-11-26, 2026-01-05
+    First Draft                               :done, gp1g, 2025-11-01, 2025-11-30
+    Second Draft                              :active, 2025-11-26, 2026-01-05
     Proofread & Finalise GP1 Report           :gp1i, 2026-01-06, 2026-01-14
     Submit GP1 Deliverables                   :milestone, gp1m, 2026-01-15, 0d
 
