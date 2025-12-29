@@ -27,5 +27,8 @@ flowchart TD
     O --> P[Download TTL]
     O --> Q[Download JSON-LD]
     O --> R[Download N-Triples]
-
+   %% ===== Storytime Feature =====
+    L --> S1[Generate Storyboard]
+    S1 --> S2[Generate Short Story Recount]
+    S2 --> S3[Storytime Screen]
 ```
