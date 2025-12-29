@@ -14,6 +14,7 @@ UC2((Choose Topics))
 UC3((Define Custom T-Box))
 UC4((Review and Refine Triples))
 UC5((Approve and Export))
+UC6((Storytime))
 end
 
 subgraph SLane["System - Flask LLM KG Engine"]
@@ -30,6 +31,8 @@ SC8[Build Knowledge Graph]
 SC9[Visualize Graph]
 SC10[Export RDF]
 SC11[Lookup Predicate Alternatives]
+SC12[Generate Storyboard]
+SC13[Generate Short Story Recount]
 end
 
 %% =======================
@@ -50,6 +53,10 @@ UC4 --> UC5 --> S
 S --> SC8 --> SC9 --> UC5
 UC5 --> SC10 --> U
 
+%% ---- Storytime branch ----
+UC6 --> S
+S --> SC8 --> SC12 --> SC13 --> UC6
+
 %% =======================
 %% Styling
 %% =======================
@@ -59,8 +66,7 @@ classDef usercase fill:#eef1ff,stroke:#5a67d8,color:#111,stroke-width:1px;
 classDef system fill:#f0fff4,stroke:#2f855a,color:#111,stroke-width:1px;
 
 class U,S actor;
-class UC1,UC2,UC3,UC4,UC5 usercase;
-class SC1,SC2,SC3,SC4,SC5,SC6,SC7,SC8,SC9,SC10,SC11 system;
-
+class UC1,UC2,UC3,UC4,UC5,UC6 usercase;
+class SC1,SC2,SC3,SC4,SC5,SC6,SC7,SC8,SC9,SC10,SC11,SC12,SC13 system;
 
 ```
