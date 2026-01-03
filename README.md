@@ -1,7 +1,7 @@
 # ChronoLang
 ### Graduation Project — Data Science & Artificial Intelligence
 
-**Authors:** Mohammad ALADDASI & Shahd Abuhijleh
+**Authors:** Mohammad ALADDASI & Shahd Abu Hijleh
 
 **Supervisor:** *Dr Omar Qawasmeh*
  
@@ -80,9 +80,9 @@ gantt
     Create Research Question / Thesis         :done, gp1f, 2025-11-18, 2025-11-21
 
     First Draft                               :done, gp1g, 2025-11-01, 2025-11-30
-    Second Draft                              :active, 2025-11-26, 2026-01-05
-    Proofread & Finalise GP1 Report           :gp1i, 2026-01-06, 2026-01-14
-    Submit GP1 Deliverables                   :milestone, gp1m, 2026-01-15, 0d
+    Second Draft                              :done, 2025-11-26, 2026-01-02
+    Proofread & Finalise GP1 Report           :active, 2026-01-04, 2026-01-5
+    Submit GP1 Deliverables                   :milestone, gp1m, 2026-01-06, 0d
 
     %% -------------------------
     %% PHASE 2 — GP2 PRACTICAL WORK (starts before GP1 ends)
@@ -98,7 +98,7 @@ gantt
 ```
 ## Deliverables
 
-* Research Paper (APA7 Format)
+* Research Paper (IEEE Format)
 * Functional Prototype of the Knowledge Graph Search Engine
 * Evaluation Report
 * Presentation Slides
