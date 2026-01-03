@@ -1,4 +1,4 @@
-# ChronoLang
+# ChronoLearn
 ### Graduation Project — Data Science & Artificial Intelligence
 
 **Authors:** Mohammad ALADDASI & Shahd Abu Hijleh
