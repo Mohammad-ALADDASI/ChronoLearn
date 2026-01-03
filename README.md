@@ -53,7 +53,7 @@ The project bridges **data science**, **NLP**, **LLM**, and **knowledge represen
 | **NLP**             | Omartificial                                                 |
 | **Knowledge Graph** | Neo4j, RDFLib                                                |
 | **Vector Store**    | ChromaDB                                                     |
-| **Data Pipeline**   | Pandas, BeautifulSoup, Scrapy, Selenium                      |
+| **Data Pipeline**   | Pandas, BeautifulSoup, Selenium                              |
 | **LLM Models**      | Aya Model, Qwen, OSS2b *(if feasible)*                       |
 | **Evaluation**      | Precision / Recall, SPARQL Queries, Cypher                   |
 | **Visualisation**   | Cytoscape.js, Vis Network (Vis.js), Sigma.js, D3.js          |
