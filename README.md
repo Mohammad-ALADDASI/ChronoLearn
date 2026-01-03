@@ -81,7 +81,7 @@ gantt
 
     First Draft                               :done, gp1g, 2025-11-01, 2025-11-30
     Second Draft                              :done, 2025-11-26, 2026-01-02
-    Proofread & Finalise GP1 Report           :active, 2026-01-04, 2026-01-5
+    Proofread & Finalise GP1 Report           :active, 2026-01-03, 2026-01-05
     Submit GP1 Deliverables                   :milestone, gp1m, 2026-01-06, 0d
 
     %% -------------------------
