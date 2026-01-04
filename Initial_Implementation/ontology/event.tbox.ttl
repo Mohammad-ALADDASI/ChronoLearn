@@ -1,0 +1,64 @@
+@prefix : <http://example.org/ontology/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+### -------------------------------
+### CLASS: HistoricalEvent
+### -------------------------------
+:HistoricalEvent a owl:Class ;
+    rdfs:label "Historical Event"@en ;
+    rdfs:label "حدث تاريخي"@ar ;
+    rdfs:subClassOf dbo:Event .
+
+### -------------------------------
+### PROPERTIES ALLOWED IN EVENT THEME
+### -------------------------------
+
+# Where the event occurred
+:occurredIn a owl:ObjectProperty ;
+    rdfs:label "occurred in"@en ;
+    rdfs:label "وقع في"@ar ;
+    rdfs:domain :HistoricalEvent ;
+    rdfs:range dbo:Place .
+
+# When the event occurred
+:occurredOn a owl:DatatypeProperty ;
+    rdfs:label "occurred on"@en ;
+    rdfs:label "وقع بتاريخ"@ar ;
+    rdfs:domain :HistoricalEvent ;
+    rdfs:range rdfs:Literal .
+
+# Participants in the event
+:hasParticipant a owl:ObjectProperty ;
+    rdfs:label "has participant"@en ;
+    rdfs:label "شارك فيه"@ar ;
+    rdfs:domain :HistoricalEvent ;
+    rdfs:range dbo:Agent .
+
+# Event outcome
+:hasOutcome a owl:ObjectProperty ;
+    rdfs:label "has outcome"@en ;
+    rdfs:label "نتج عنه"@ar ;
+    rdfs:domain :HistoricalEvent ;
+    rdfs:range dbo:Event .
+
+# Related event
+:relatedToEvent a owl:ObjectProperty ;
+    rdfs:label "related to event"@en ;
+    rdfs:label "مرتبط ب"@ar ;
+    rdfs:domain :HistoricalEvent ;
+    rdfs:range :HistoricalEvent .
+
+# Temporal ordering
+:precededBy a owl:ObjectProperty ;
+    rdfs:label "preceded by"@en ;
+    rdfs:label "سبقه"@ar ;
+    rdfs:domain :HistoricalEvent ;
+    rdfs:range :HistoricalEvent .
+
+:followedBy a owl:ObjectProperty ;
+    rdfs:label "followed by"@en ;
+    rdfs:label "تلاه"@ar ;
+    rdfs:domain :HistoricalEvent ;
+    rdfs:range :HistoricalEvent .

@@ -1,0 +1,20 @@
+@prefix : <http://example.org/ontology/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+### USER-DEFINED T-BOX TEMPLATE
+### This is used when theme="other" and the user provides a custom T-Box class.
+
+# Example:
+# :UserDefinedClass a owl:Class ;
+#     rdfs:label "Custom Class"@en ;
+#     rdfs:label "تصنيف مخصص"@ar ;
+#     rdfs:subClassOf dbo:Thing .
+
+# Add properties below:
+# :customProperty a owl:ObjectProperty ;
+#     rdfs:label "custom property"@en ;
+#     rdfs:label "خاصية مخصصة"@ar ;
+#     rdfs:domain :UserDefinedClass ;
+#     rdfs:range rdfs:Literal .
