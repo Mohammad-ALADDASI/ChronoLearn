@@ -73,7 +73,7 @@ ChronoLearn places a strong emphasis on Arabic historical narratives, filling a 
 
 ```mermaid
 gantt
-    title Project Timeline: History Knowledge Graph (Revised)
+    title Project Timeline: History Knowledge Graph
     dateFormat  YYYY-MM-DD
     axisFormat  %b %d
 
@@ -90,8 +90,10 @@ gantt
 
     First Draft                               :done, gp1g, 2025-11-01, 2025-11-30
     Second Draft                              :done, 2025-11-26, 2026-01-02
-    Proofread & Finalise GP1 Report           :active, 2026-01-03, 2026-01-05
+    Proofread & Finalise GP1 Report           :done , 2026-01-03, 2026-01-05
     Submit GP1 Deliverables                   :milestone, gp1m, 2026-01-06, 0d
+    Proposal Presentation - GP1 Discussion    :milestone, gp1m, 2026-01-11, 0d
+
 
     %% -------------------------
     %% PHASE 2 — GP2 PRACTICAL WORK (starts before GP1 ends)
@@ -100,7 +102,7 @@ gantt
     Data Collection & Preprocessing           :active, gp2a, 2025-12-01, 2026-01-20
     NLP Entity & Relation Extraction          :gp2b, 2026-01-05, 2026-02-15
     Knowledge Graph Modeling & Building       :gp2c, 2026-02-01, 2026-03-25
-    Product Interface Development              :gp2d, 2026-03-05, 2026-04-10
+    Product Interface Development             :gp2d, 2026-03-05, 2026-04-10
     System Testing & Evaluation               :gp2e, 2026-04-05, 2026-05-01
     Final Documentation + Presentation Prep   :gp2f, 2026-04-20, 2026-05-15
     Submit Final Deliverables (GP2)           :milestone, gp2m, 2026-05-15, 0d
