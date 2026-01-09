@@ -106,6 +106,23 @@ gantt
     System Testing & Evaluation               :gp2e, 2026-04-05, 2026-05-01
     Final Documentation + Presentation Prep   :gp2f, 2026-04-20, 2026-05-15
     Submit Final Deliverables (GP2)           :milestone, gp2m, 2026-05-15, 0d
+
+    %% -------------------------
+    %% PROJECT MEETINGS & REVIEWS
+    %% -------------------------
+    section Supervisor Meetings & Reviews
+
+    Meeting 1: Idea Brainstorming & Ice Breaking      :milestone, m1, 2025-10-13, 0d
+    Meeting 2: Pipeline & Scope Consolidation         :milestone, m2, 2025-10-20, 0d
+    Meeting 3: Literature Review Confirmation         :milestone, m3, 2025-11-04, 0d
+    Meeting 4: Chapter 1 First Draft Review           :milestone, m4, 2025-11-11, 0d
+    Meeting 5: Chapters 2 & 3 First Draft Review      :milestone, m5, 2025-11-18, 0d
+    Meeting 6: Chapters 2–3 Review & Pipeline Start   :milestone, m6, 2025-11-25, 0d
+    Meeting 7: Chapters 4–5 & Code Trial Review       :milestone, m7, 2025-12-09, 0d
+    Meeting 8: Experiment & Pipeline Review           :milestone, m8, 2025-12-15, 0d
+    Meeting 9: GP1 Report & Presentation Draft        :milestone, m9, 2025-12-22, 0d
+    Meeting 10: Final Rehearsal & Submission Check    :milestone, m10, 2026-01-05, 0d
+
 ```
 ## Deliverables
 
