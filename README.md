@@ -28,13 +28,7 @@ ChronoLearn places a strong emphasis on Arabic historical narratives, filling a 
 ---
 
 ## Objectives
-
-* Build a **Knowledge Graph** representing entities and their relationships.
-* Design an **ETL/ELT pipeline** for ingesting structured and unstructured  data.
-* Integrate **natural language processing (NLP)** for entity extraction and relation identification.
-* Implement a **smart query system** for semantic exploration and reasoning.
-* Evaluate system performance through query relevance and reasoning accuracy.
-  
+ 
 * Design and construct a **history-oriented Knowledge Graph** representing entities and relationships within Jordanian and Palestinian historical narratives.
 * Develop an **ETL-based NLP pipeline** capable of processing Arabic historical texts from diverse sources and formats.
 * Integrate **LLM-assisted entity and relation extraction** to support accurate and explainable knowledge representation.
