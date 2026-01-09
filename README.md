@@ -81,16 +81,16 @@ gantt
     %% -------------------------
     section Supervisor Meetings & Reviews
 
-    Meeting 1 - Idea Brainstorming & Ice Breaking      :milestone, m1, 2025-10-13, 0d
-    Meeting 2 - Pipeline & Scope Consolidation         :milestone, m2, 2025-10-20, 0d
-    Meeting 3 - Literature Review Confirmation         :milestone, m3, 2025-11-04, 0d
-    Meeting 4 - Chapter 1 First Draft Review           :milestone, m4, 2025-11-11, 0d
-    Meeting 5 - Chapters 2 & 3 First Draft Review      :milestone, m5, 2025-11-18, 0d
-    Meeting 6 - Chapters 2–3 Review & Pipeline Start   :milestone, m6, 2025-11-25, 0d
-    Meeting 7 - Chapters 4–5 & Code Trial Review       :milestone, m7, 2025-12-09, 0d
-    Meeting 8 - Experiment & Pipeline Review           :milestone, m8, 2025-12-15, 0d
-    Meeting 9 - GP1 Report & Presentation Draft        :milestone, m9, 2025-12-22, 0d
-    Meeting 10 - Final Rehearsal & Submission Check    :milestone, m10, 2026-01-05, 0d
+    Meeting 1 - Idea Brainstorming & Ice Breaking      :done, milestone, m1, 2025-10-13, 0d
+    Meeting 2 - Pipeline & Scope Consolidation         :done, milestone, m2, 2025-10-20, 0d
+    Meeting 3 - Literature Review Confirmation         :done, milestone, m3, 2025-11-04, 0d
+    Meeting 4 - Chapter 1 First Draft Review           :done, milestone, m4, 2025-11-11, 0d
+    Meeting 5 - Chapters 2 & 3 First Draft Review      :done, milestone, m5, 2025-11-18, 0d
+    Meeting 6 - Chapters 2–3 Review & Pipeline Start   :done, milestone, m6, 2025-11-25, 0d
+    Meeting 7 - Chapters 4–5 & Code Trial Review       :done, milestone, m7, 2025-12-09, 0d
+    Meeting 8 - Experiment & Pipeline Review           :done, milestone, m8, 2025-12-15, 0d
+    Meeting 9 - GP1 Report & Presentation Draft        :done, milestone, m9, 2025-12-22, 0d
+    Meeting 10 - Final Rehearsal & Submission Check    :done, milestone, m10, 2026-01-05, 0d
 
     %% -------------------------
     %% PHASE 1 — GP1 DOCUMENTATION
@@ -105,8 +105,8 @@ gantt
 
     First Draft                               :done, gp1g, 2025-11-01, 2025-11-30
     Second Draft                              :done, 2025-11-26, 2026-01-02
-    Proofread & Finalise GP1 Report           :done , 2026-01-03, 2026-01-05
-    Submit GP1 Deliverables                   :milestone, gp1m, 2026-01-06, 0d
+    Proofread & Finalise GP1 Report           :done, 2026-01-03, 2026-01-05
+    Submit GP1 Deliverables                   :done, milestone, gp1m, 2026-01-06, 0d
     Proposal Presentation - GP1 Discussion    :milestone, gp1m, 2026-01-11, 0d
 
 
